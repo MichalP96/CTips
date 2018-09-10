@@ -1,4 +1,4 @@
-int getNumber()
+int getChar()
 {
     int numbers;
     int flag = 1;
