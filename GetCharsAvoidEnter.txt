@@ -1,0 +1,22 @@
+int getNumber()
+{
+    int numbers;
+    int flag = 1;
+
+    while (flag == 1)
+    {
+        if(scanf("%d", &numbers) == 1)
+        {
+            flag = 0;
+            getchar();
+        }
+        else
+        {
+            printf("Enter number\n");
+            getchar();
+        }
+    }
+
+    return numbers;
+
+}
