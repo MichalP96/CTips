@@ -1,0 +1,22 @@
+void notNumber()
+{
+    char chars[20] = {'\0', '\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0'};
+    char singleChar;
+    int counterOfChars = 0;
+    int flag;
+
+    singleChar = getchar();
+    while(singleChar != '\n')
+    {
+        chars[counterOfChars] = singleChar;
+        counterOfChars++;
+        singleChar = getchar();
+    }
+
+    printf("%s is not a number\n", chars);
+    printf("Enter number like 2.5 or -178E8 or 3: ");
+
+
+
+    return 0;
+}
