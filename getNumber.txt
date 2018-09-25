@@ -1,4 +1,4 @@
-int getChar(void)
+int getNumber(void)
 {
     int numbers;
     int flag = 1;
@@ -12,7 +12,7 @@ int getChar(void)
         }
         else
         {
-            printf("Enter number\n");
+            printf("Enter number like 1, 2, 300\n");
             getchar();
         }
     }

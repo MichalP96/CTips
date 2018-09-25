@@ -1,4 +1,4 @@
-void notNumber()
+void notNumber(void)
 {
     char chars[20] = {'\0', '\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0'};
     char singleChar;

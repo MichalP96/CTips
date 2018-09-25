@@ -1,0 +1,24 @@
+char getCharacter()
+{
+    char character;
+    int flag = 1;
+
+    while (flag == 1)
+    {
+        if(scanf("%c", &character) == 1)
+        {
+            if(isalpha(character))
+            {
+                flag = 0;
+                getchar();
+            }
+            else
+            {
+                printf("Enter char like a,b or c\n");
+                getchar();
+            }
+        }
+    }
+
+    return character;
+}
